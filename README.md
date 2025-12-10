@@ -29,4 +29,27 @@
 
 ### End of STAGE 1!
 
+## LAST PART: STAGE 2.
+
+### First, I created the nginx server configuration:
+
+<img width="1527" height="725" alt="nginx" src="https://github.com/user-attachments/assets/76016393-d4c9-42dd-bfe3-a2b64b0fbbe7" />
+
+### Then I moddified the Compose.yaml so i include the server and let it the exit of the information, so the web sercvice only exposses it's port. Also I built the volumes, and chnaged the default command
+
+<img width="1127" height="811" alt="image" src="https://github.com/user-attachments/assets/63f5c33c-9076-4294-b096-7134d358f827" />
+
+### Third, I moddified settings.py to add the staticfiles path
+
+<img width="927" height="427" alt="set2" src="https://github.com/user-attachments/assets/eea1e2bb-4339-4d4c-84fd-2f44bb1a22b6" />
+
+### Finally, I added gunicorn to the requirements list
+
+<img width="927" height="427" alt="set2" src="https://github.com/user-attachments/assets/ab951a5c-8922-4fe5-9cc9-0d6705bb8ab3" />
+
+###End of the practise
+
+
+
+
 
