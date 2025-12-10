@@ -45,9 +45,9 @@
 
 ### Finally, I added gunicorn to the requirements list
 
-<img width="927" height="427" alt="set2" src="https://github.com/user-attachments/assets/ab951a5c-8922-4fe5-9cc9-0d6705bb8ab3" />
+<img width="762" height="247" alt="req2222222" src="https://github.com/user-attachments/assets/c808a0e7-4e12-4efc-bf89-1c51da9769a2" />
 
-###End of the practise
+### End of the practise
 
 
 
