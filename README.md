@@ -12,3 +12,21 @@
 
 ### End of the DEV STAGE!.
 
+## SECOND PART: STAGE 1.
+### For good practise, we must disable / eliminate the Django automatic browser reloading. So, we must eliminate reload urls included and remove it from the installed apps and middlewares:
+
+<img width="950" height="566" alt="Captura de pantalla 2025-12-10 111456" src="https://github.com/user-attachments/assets/4b85d20e-d87c-43d8-ad0b-557a0023ada4" />
+
+<img width="1130" height="648" alt="reloadsettings" src="https://github.com/user-attachments/assets/72d58e43-66e4-4d8b-b47c-a932c0d6fd46" />
+
+### If you do not want to install it, remove it too from requirements.txt
+
+### Then, we must adapt the commands of the dockerfile so we start the listening of the wsgi
+
+<img width="938" height="301" alt="Captura de pantalla 2025-12-10 112105" src="https://github.com/user-attachments/assets/056238b2-62ac-445c-85f0-30d0abb90a52" />
+
+### Looking in wsgi you might find the reload also there, but in my case it wasn't like that so I didn't have to remove it
+
+### End of STAGE 1!
+
+
